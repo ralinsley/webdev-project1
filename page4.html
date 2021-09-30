@@ -2,158 +2,88 @@
 <html>
 
 <head>
-    <style>
-        body {
-            /* height: 100vh;
-            width: 100vh; */
-            margin: 0;
-            background-color: beige;
-
-
-        }
-
-        header {
-            align-content: center;
-            background-color: green;
-            padding: 0;
-        }
-
-        .navlinks {
-            list-style-type: none;
-            background-color: gray;
-            display: inline-block;
-            margin: 0px;
-            padding: 0;
-            display: flex;
-            flex-direction: row;
-            align-items: baseline;
-        }
-
-        .home {
-            font-size: 2em;
-            margin: 5px;
-
-        }
-
-        .navlink {
-            font-size: 2em;
-            margin: 5px;
-
-        }
-
-        .title {
-            text-decoration: underline;
-            text-align: center;
-            margin: 0;
-            padding: 1em;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            padding: 1em;
-            width: 100vw;
-            overflow: scroll;
-        }
-
-        .middler {
-            display: flex;
-            flex-direction: row;
-            flex-grow: 1;
-            background-color: beige;
-            height: auto;
-            width: 100vw;
-            /* height: 100vh; */
-
-        }
-
-        .lefter {
-            flex-basis: 1;
-            background-color: red;
-            padding: 1em;
-            border: solid;
-            height: auto;
-        }
-
-        .righter {
-            background-color: royalblue;
-            padding: 1em;
-            border: solid;
-            height: auto;
-            flex-grow: 1;
-
-        }
-
-        footer {
-            padding: 1em;
-            border: solid;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/project1style.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul class="navlinks">
-                <li class="home"> <a href=index.html>home</a></li>
-                <li class="navlink"> <a href=week1.html>Week 1</a></li>
-                <li class="navlink"> <a href=week2.html>Week 2</a></li>
-
+                <li><a href="index.html">Home</a></li>
+                <li class="page">
+                    <div><a href="page1.html">Glasgow</a></div>
+                    <ul class="nav-page-links">
+                        <li class="nav-page-link"><a href=#1restaurant>Restaurants</a></li>
+                        <li class="nav-page-link"><a href=#1cultural>Cultural Expereinces</a></li>
+                        <li class="nav-page-link"><a href=#1night>Night Life</a></li>
+                        <li class="nav-page-link"><a href=#1news>Local News</a></li>
+                        <li class="nav-page-link"><a href=#1unique>Unique Expereiences</a></li>
+                        <li class="nav-page-link"><a href=#1tour>Video Tour</a></li>
+                    </ul>
+                </li>
+                <li class="page">
+                    <div><a href="page2.html">Page 2</a></div>
+                    <ul class="nav-page-links">
+                        <li class="nav-page-link"><a href=#2restaurant>Restaurants</a></li>
+                        <li class="nav-page-link"><a href=#2cultural>Cultural Expereinces</a></li>
+                        <li class="nav-page-link"><a href=#2night>Night Life</a></li>
+                        <li class="nav-page-link"><a href=#2news>Local News</a></li>
+                        <li class="nav-page-link"><a href=#2unique>Unique Expereiences</a></li>
+                        <li class="nav-page-link"><a href=#2tour>Video Tour</a></li>
+                    </ul>
+                </li>
+                <li class="page">
+                    <div><a href="page3.html">Page 3</a></div>
+                    <ul class="nav-page-links">
+                        <li class="nav-page-link"><a href=#3restaurant>Restaurants</a></li>
+                        <li class="nav-page-link"><a href=#3cultural>Cultural Expereinces</a></li>
+                        <li class="nav-page-link"><a href=#3night>Night Life</a></li>
+                        <li class="nav-page-link"><a href=#3news>Local News</a></li>
+                        <li class="nav-page-link"><a href=#3unique>Unique Expereiences</a></li>
+                        <li class="nav-page-link"><a href=#3tour>Video Tour</a></li>
+                    </ul>
+                </li>
+                <li class="page">
+                    <div><a href="page4.html">Brighton</a></div>
+                    <ul class="nav-page-links">
+                        <li class="nav-page-link"><a href=#4restaurant>Restaurants</a></li>
+                        <li class="nav-page-link"><a href=#4cultural>Cultural Expereinces</a></li>
+                        <li class="nav-page-link"><a href=#4night>Night Life</a></li>
+                        <li class="nav-page-link"><a href=#4news>Local News</a></li>
+                        <li class="nav-page-link"><a href=#4unique>Unique Expereiences</a></li>
+                        <li class="nav-page-link"><a href=#4tour>Video Tour</a></li>
+                    </ul>
+                </li>
+                <li><a href="report.html">Report</a></li>
             </ul>
         </nav>
-        <h1 class="title" style="color:beige;">Week 3</h1>
+        <h1 class="glasgow">Glasgow</h1>
     </header>
-    <div class="middler">
-        <aside class="lefter">
-            <p>LEFT SIDEBAR
-            </p>
-        </aside>
-        <main>
-            <p>Spent this week trying to get the hang of flexbox a bit more. Seems like it might be simple when going
-                over the reading, but it doesn't ever seem to come out how you expect on the first try. Seems like
-                there's always some small detail that causes something inexplicable.
-            </p>
-            <p>
-                Suppose like everything it's something that will only start to click once you try it.
-            </p>
-            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg/977px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg
-                alt="Architect's dream - Thomas Cole">Architect's Dream - Thomas Cole</img>
-            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kano_Eitoku_-_Cypress_Trees.jpg/1602px-Kano_Eitoku_-_Cypress_Trees.jpg
-                alt="Cypress Trees - Kano Eitoku">Cypress Tree - Kano Eitoku<img>
-            <pre>BufferedWriter out = null;
-try {
-	out = new BufferedWriter(new FileWriter(”filename”, true));
-	out.write(”aString”);
-} catch (IOException e) {
-	// error processing code
-} finally {
-	if (out != null) {
-		out.close();
-	}
-    (sample java code!)
-}
-            </pre>
-            <ul>
-                <h3 class="title">Sources</h3>
-                <li><a href=https://allover.twodee.org>Class textbook</a>
-                </li>
-                <li><a href=https://twodee.org/blog/18142>Blog setup instructions</a>
-                </li>
-                <li><a href="https://www.w3schools.com/tags/tag_iframe.ASP">Video Embed</a>
-                </li>
-                <li><a href=https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Artwork/Paintings>Wikipedia Art Images</a>
-                </li>
-            </ul>
-        </main>
-
-        <aside class="righter">
-            <p>RIGHT SIDEBAR
-            </p>
-        </aside>
-    </div>
-    <footer>
-        <p>Copyright Ryan Linsley &copy;</p>
-    </footer>
+    <main>
+        <!-- <img src="buchanan-street.jpeg"> -->
+        <a title="user:kilnburn, Attribution, via Wikimedia Commons"
+            href="https://commons.wikimedia.org/wiki/File:(looking_down)_Buchanan_Street,_Glasgow.jpg"><img width="512"
+                alt="(looking down) Buchanan Street, Glasgow"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%28looking_down%29_Buchanan_Street%2C_Glasgow.jpg/512px-%28looking_down%29_Buchanan_Street%2C_Glasgow.jpg"></a>
+        by kilnburn, via Wikimedia Commons
+        <h2 id="4restaurant">Restaurants</h2>
+        <h2 id="4cultural">Cultural Experiences</h2>
+        <h2 id="4night">Night Life</h2>
+        <h2 id="4news">Local News</h2>
+        <a href="https://www.glasgowtimes.co.uk/">Glasgow Times</a>
+        <h2 id="4unique">Unique Experiences</h2>
+        <h2 id="4tour">Video Tour</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5411ooyDJjw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </main>
+    <div><label for="suggestions">Please list and describe any suggestions, or comments you have for our web design
+            team.</label></div>
+    <span><textarea id="suggestions"></textarea></span>
+    <button>Submit</button>
+    <footer>Copyright Great Travels &copy;</footer>
 </body>
 
 </html>

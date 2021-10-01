@@ -1,4 +1,6 @@
-
+html {
+    margin: 0%;
+}
 body {
     /* height: 100vh;
     width: 100vh; */
@@ -16,13 +18,14 @@ header {
 .navlinks {
     list-style-type: none;
     background-color: gray;
-    display: inline-block;
+    /* display: inline-block; */
     /* margin: 0px;
     padding: 0; */
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
+    padding-top: 0%;
 }
 
 .navlinks > li {
@@ -56,10 +59,8 @@ header {
     border-bottom: 3px solid black;
 
 }
-.home {
-    font-size: 2em;
-    margin: 5px;
-
+.city-pic {
+    width: 100vw;
 }
 
 .title {
@@ -67,8 +68,21 @@ header {
     text-align: center;
     margin: 0;
     padding: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .glasgow {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50vw;
+}
+.edinburgh {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50vw;
+}
+.london {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50vw;
+}
+.brighton {
     font-family: 'Poppins', sans-serif;
     margin-left: 50vw;
 }
@@ -81,16 +95,9 @@ main {
     /* margin-top: 10px; */
     overflow: scroll;
 }
-
-.middler {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    background-color: beige;
-    height: auto;
-    width: 100vw;
-    /* height: 100vh; */
-
+main > div {
+    padding: inherit;
+    margin-left: inherit;
 }
 
 button {
@@ -101,13 +108,37 @@ footer {
     border: solid;
 }
 
+.city-pic {
+    display: inline-flex;
+    flex-direction: row;
+    max-inline-size: 33%;
+}
+.city-pic:hover {
+    transform: rotate(15deg) scale(1.2);
+    transition-duration: .5s;
+}
 @media screen and (max-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
 
     main {
         margin: 0;
     }
-    .navlinks
+    .navlinks {
+        flex-direction: column;
+        float: left;
+    }
+    .page {
+        display: inline;
+        flex-direction: column;
+        float: left;
+
+    }
+    .page:hover > .nav-page-links{
+        display: inline;
+        flex-direction: row;
+        left: 100%;
+        top: 0%;
+      }
+    .city-pic {
+        width: 200px;
+    }
 }
